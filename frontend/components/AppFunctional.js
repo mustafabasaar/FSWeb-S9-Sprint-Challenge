@@ -10,7 +10,6 @@ export default function AppFunctional(props) {
   const [message, setMessage] = useState(initialMessage);
   const [email, setEmail] = useState(initialEmail);
   const [steps, setSteps] = useState(initialSteps);
-
   const [bPosition, setBPosition] = useState(initialIndex);
 
   function getXY(index) {
